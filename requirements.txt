@@ -1,6 +1,7 @@
-streamlit==1.31.0
-tensorflow==2.15.0
-numpy==1.24.3
-pillow==10.2.0
-opencv-python-headless==4.8.1.78
-gdown==4.7.3
+flask==2.0.1
+tensorflow-cpu==2.15.0  # Using CPU version as it's lighter and works on cloud
+numpy>=1.24.0,<1.25.0
+pillow>=10.0.0
+opencv-python-headless>=4.8.0
+streamlit>=1.31.0
+protobuf>=4.25.0  # Helps with TensorFlow compatibility
